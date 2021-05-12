@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
-/*
-	Future Imperfect by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -71,6 +67,37 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+.left {
+	float: center;
+	text-align: center;
+	padding-right: 15px;
+	margin-left: 100px;
+	font-family: 'Poppins', sans-serif;
+  }
+
+  .parentContainer{
+  display: block;
+  flex-direction: row;
+  text-align:center;
+  font-family: helvetica, arial, sans-serif;
+  }
+  
+  .flexChild{
+  display: inline-block;
+  background-color: rgb(241, 223, 213);
+  padding: 10px;
+  margin: 5px;
+  align-items:center;
+  justify-content: center;
+ 
+  
+  }
+
+
+
+
+
 
 /* Basic */
 
@@ -3421,10 +3448,8 @@ input, select, textarea {
 	}
 
 		#intro .logo:before {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
-			background-position: top left;
+            background-position: top left;
 			background-repeat: no-repeat;
-			background-size: 100% 100%;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3437,7 +3462,7 @@ input, select, textarea {
 		#intro .logo img {
 			display: block;
 			margin-left: -0.25em;
-			width: 4.5em;
+		
 		}
 
 	#intro header h2 {
