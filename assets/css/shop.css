@@ -29,18 +29,6 @@ body {
 	line-height: 1;
 }
 
-.Mainposts {
-	width: 1200px;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
-
-}
-
-
 ol, ul {
 	list-style: none;
 }
@@ -80,7 +68,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-
 .left {
 	float: center;
 	text-align: center;
@@ -89,21 +76,7 @@ input, select, textarea {
 	font-family: 'Poppins', sans-serif;
   }
 
-  .parentContainer{
-  display: block;
-  flex-direction: row;
-  text-align:center;
-  font-family: helvetica, arial, sans-serif;
-  }
-  
-  .flexChild{
-  display: inline-block;
-  background-color: rgb(241, 223, 213);
-  padding: 10px;
-  margin: 5px;
-  align-items:center;
-  justify-content: center;
-  }
+
 
 
 
